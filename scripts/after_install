@@ -1,0 +1,4 @@
+#!/bin/bash
+
+password=s(aws ssm get-parameters --region us-east-1 --names MYAPP_POSTGRES_PASSWORD --query Parameters[0].Value)
+find /tmp/codedeploy-deployment-staging-area -type f -name "springmvc-servlet.xml" -exec sed -i '' "s/REPLACEME/$password/g" {} \;
