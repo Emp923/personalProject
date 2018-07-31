@@ -18,7 +18,6 @@
 <servlet-mapping>
 <servlet-name>default</servlet-name>
 <url-pattern>*.css</url-pattern>
-<servlet-name>default</servlet-name>
 </servlet-mapping>
 
 </web-app>
