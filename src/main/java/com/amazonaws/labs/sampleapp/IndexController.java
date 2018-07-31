@@ -54,7 +54,7 @@ public class IndexController {
 
     @RequestMapping(value="/", method = RequestMethod.GET)
     public String displayIndex(){
-	return "home";
+	return "/home";
     }
     
     @RequestMapping(value = "/dog", method = RequestMethod.GET)
