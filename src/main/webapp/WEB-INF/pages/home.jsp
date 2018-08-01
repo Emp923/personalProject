@@ -5,6 +5,10 @@
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<title>This is the title</title>
+		<meta name="viewport" content="initial-scale=1.0">
+    		<link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap.min.css'>
+   		<link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
+    		<link rel='stylesheet' href='css/theme.css'>
 	</head>
 	
 	<body>
